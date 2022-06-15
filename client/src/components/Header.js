@@ -1,18 +1,19 @@
-import logo from './assets/logo.png';
+import React from 'react';
+import logo from './assets/logo2.png';
 import Clients from './Clients';
 
 export default function Header() {
     return (
-        <nav className='navbar bg-light mb-4 p-0'>
-        
-        <div className='contianer'>
-        <a className="navbar-brand" href="/">
-        <div className=''>
-            <img src={logo} alt="logo" className=""></img>
-        </div>
-        </a>
-            <div><Clients/></div>
-        </div>
-        </nav>
+        <React.Fragment>
+            <nav className='navbar bg-light mb-4 p-2'>
+                <a className="navbar-brand" href="/">
+                    <div className='d-flex bold'>
+                        <img src={logo} alt="logo" className="mr-2"></img>
+                        Project Management
+                        </div>
+                </a>
+            </nav>
+            <div className='contianer p-4'> <div><Clients /></div></div>
+        </React.Fragment>
     )
 }

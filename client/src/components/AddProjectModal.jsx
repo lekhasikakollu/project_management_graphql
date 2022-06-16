@@ -18,7 +18,7 @@ export default function AddProjectModal() {
             const {projects} = cache.readQuery({query: GET_PROJECTS});
             cache.writeQuery({
                 query: GET_PROJECTS,
-                data: {projects: projects.concact(addProject)}
+                data: {projects: [...projects,addProject]}
             })
         }
     })

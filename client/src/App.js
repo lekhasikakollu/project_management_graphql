@@ -39,10 +39,9 @@ function App() {
       <Router>
         <Header />
         <div className="container">
-          <h1>ReactJS Application</h1>
           <Routes>
             <Route path='/' element={<Home/>}/>
-            <Route path='/projects' element={<Project/>}/>
+            <Route path='/projects/:id' element={<Project/>}/>
             <Route path='*' element={<NotFound/>}/>
           </Routes>
         </div>

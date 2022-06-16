@@ -1,5 +1,4 @@
 import ClientRow from './ClientRow';
-import AddClientsModal from './AddClientsModal';
 import Spinner from './Spinner';
 import { useQuery } from '@apollo/client';
 import React from 'react';
@@ -14,7 +13,6 @@ export default function Clients() {
 
     return (
         <React.Fragment>
-            <AddClientsModal/>
             {!loading && !error && (
                 <table className='table table-hover mt-3'>
                     <thead>

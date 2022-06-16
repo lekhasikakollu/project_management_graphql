@@ -1,6 +1,5 @@
 import React from 'react';
-import logo from './assets/logo2.png';
-import Clients from './Clients';
+import logo from './assets/logo.png';
 
 export default function Header() {
     return (
@@ -13,7 +12,7 @@ export default function Header() {
                         </div>
                 </a>
             </nav>
-            <div className='contianer p-4'> <div><Clients /></div></div>
+            <div className='contianer p-4'> <div></div></div>
         </React.Fragment>
     )
 }

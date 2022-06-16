@@ -22,7 +22,7 @@ export default function Project() {
        <React.Fragment>
        {!loading && !error && (
            <div className="mx-auto w-75 card p-5 mt-10">
-           <Link to="/" className="btn btn-light btn-sm w-25 d-inline ms-auto">Go Back</Link>
+           <Link to="/" className="btn btn-blue p-2 btn-sm w-25 d-inline ms-auto">Go Back</Link>
            <h1>{data.project.name}</h1>
            <p>{data.project.description}</p>
            <p>{id}</p>

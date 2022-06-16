@@ -27,7 +27,7 @@ code {
 }
 
 .navbar-brand {
-  color: #df3ca6;
+  color: #008b8b;
 }
 
 .navbar-brand img {
@@ -41,24 +41,30 @@ code {
 
 .btn-primary,
 .bg-primary {
-  background-color: #df3ca6 !important;
+  background-color: #008b8b !important;
   border: none;
 }
 
 .btn-primary:hover {
-  background-color: #df3ca6;
+  background-color: #008b8b;
   opacity: 0.9;
 }
 
-.btn-secondary {
-  background-color: #7430f9;
+.btn-secondary,.btn-blue {
+  background-color:#008b8b;
+  color: white;
 }
 
-.btn-secondary:hover {
-  background-color: #7430f9;
+.btn-secondary:hover,.btn-blue:hover {
+  background-color: #008b8b;
   opacity: 0.9;
+  color: white;
 }
 
 .icon {
   margin-right: 5px;
+}
+
+.modal-header{
+  background-color: #F8D210;
 }
